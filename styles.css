@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #8DC63F;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 50px;
+    font-size: 25px; /* Adjust the font size as needed */
+}
+
+header {
+    background-color: #8DC63F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.image-with-text {
+    display: flex; /* Aligns the image and text horizontally */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 20px; /* Adjust the gap value as needed */
+}
+.small-image {
+    max-width: 40%; /* Adjust the percentage or value as needed */
+    height: auto;
+}
+h1 {
+    background-color: #66CCCC;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 50px; /* Adjust the font size as needed */
+}
+.hero {
+    background-color: #66CCCC;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.pitch, .inspiration, .who-we-are {
+
+    background-color: #D9FFD9;
+    padding: 30px;
+}
+body {
+    background-color: #D9FFD9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    nav ul {
+	
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
