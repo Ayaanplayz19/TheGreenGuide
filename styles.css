@@ -128,6 +128,10 @@ main {
     margin-top: 20px;
 }
 
+.increased-font {
+    font-size: 20px; /* Set your desired font size */
+}
+
 .email-button, .call-button {
     display: inline-block;
     background-color: #333;
@@ -143,4 +147,16 @@ main {
 
 .email-button:hover, .call-button:hover {
     background-color: #555;
+}
+.main-text {
+    font-size: 44px; /* Set your desired font size */
+}
+
+.v-small-image {
+    max-width: 30%; /* Adjust the percentage or value as needed */
+    height: auto;
+}
+.u-small-image {
+    max-width: 25%; /* Adjust the percentage or value as needed */
+    height: auto;
 }
