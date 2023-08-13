@@ -160,3 +160,7 @@ main {
     max-width: 25%; /* Adjust the percentage or value as needed */
     height: auto;
 }
+.content {
+    margin: 20px; /* Set your desired margin value */
+}
+
