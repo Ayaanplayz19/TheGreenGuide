@@ -163,4 +163,13 @@ main {
 .content {
     margin: 20px; /* Set your desired margin value */
 }
+.video-container {
+    max-width: 560px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+
+}
 
